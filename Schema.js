@@ -2,7 +2,8 @@ import mongoose from "mongoose"
 
 
 const productSchema = new mongoose.Schema({
-    ToDo:{type:String}
+    ToDo:{type:String},
+    PhoneNumber:{type:Number}
 })
 
 
